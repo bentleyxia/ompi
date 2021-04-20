@@ -1,5 +1,5 @@
 # Open MPI Hacking / Developer's Guide
-
+test_sync
 ## Overview
 
 This file is here for those who are building/exploring OMPI in its

@@ -1,8 +1,8 @@
 [submodule "prrte"]
 	path = 3rd-party/prrte
-	url = https://github.com/openpmix/prrte
-	branch = v2.0
+	url = https://github.com/bentleyxia/prrte
+	branch = blaze
 [submodule "openpmix"]
 	path = 3rd-party/openpmix
-	url = https://github.com/openpmix/openpmix.git
-	branch = v4.1
+	url = https://github.com/bentleyxia/openpmix.git
+	branch = blaze

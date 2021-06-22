@@ -27,6 +27,7 @@ import mpi.*;
 class Hello {
     static public void main(String[] args) throws MPIException {
 
+        System.out.println("Library Path: " + System.getProperty("java.library.path"));
 
 	MPI.Init(args);
 

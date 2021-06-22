@@ -109,7 +109,7 @@ int ompi_mpiinfo_init(void)
     /* fill the env info object */
 
     /* command for this app_context */
-    if (NULL != ompi_process_info.command) {
+    if (NULL != ompi_process_info.command && *ompi_process_info.command != 0) {
         tmp = opal_argv_split(ompi_process_info.command, ' ');
         opal_info_set(&ompi_mpi_info_env.info.super, "command", tmp[0]);
 

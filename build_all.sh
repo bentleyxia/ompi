@@ -82,8 +82,6 @@ main () {
 	$3
 }
 
-echo "$#"
-
 if [ "$#" -ne 0 ]
 then
     echo "process $1 $2 $3"

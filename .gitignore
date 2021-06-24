@@ -39,6 +39,7 @@
 *.log
 *.trs
 *.sapp
+*.udb
 *~
 *\\#
 
